@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<io.armcha.elasticview.ElasticView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:flexibility="8"
+    app:cardCornerRadius="8dp"
+    android:elevation="8dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/title_tab">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:padding="5dp"
+            android:src="@drawable/logo"
+            android:id="@+id/logo"/>
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="9dp"
+            android:text="This is sample text"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_toRightOf="@+id/logo"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:layout_below="@+id/title"
+            android:src="@drawable/sample_image"
+            android:id="@+id/post"
+            android:padding="10dp"
+            android:layout_centerInParent="true"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:padding="10dp"
+            android:text="Description...."
+            android:layout_below="@+id/post"
+            android:id="@+id/description"/>
+
+
+
+    </RelativeLayout>
+
+
+
+</io.armcha.elasticview.ElasticView>
+
